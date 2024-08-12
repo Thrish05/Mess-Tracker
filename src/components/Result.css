@@ -1,0 +1,50 @@
+.result-main
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+}
+.result-center-div
+{
+  background: linear-gradient(to right, #bec1f5, #c9d6ff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px rgb(196, 183, 221);
+  min-width: 50%;
+  min-height: 100%;
+  margin-top: 0;
+
+}
+
+.result-center-div > p
+{
+  font-size: large;
+}
+
+.winningFood{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.winningFood > img
+{
+  border-radius: 50%;
+  margin: 20px;
+
+}
+.foodDescription
+{
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0px 0px 20px 20px;
+  min-height: 150px;
+  min-width: 100%;
+  
+}
